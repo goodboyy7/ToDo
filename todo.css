@@ -1,0 +1,153 @@
+#markAsDone{
+	background-color : #14a76c;
+    color: #000000;
+    font-weight: 700;
+    margin: 10px;
+	margin-left: 100px;
+	margin-right: 100px;
+    border-radius: 12px;
+    padding: 10px;
+    border: 10px;
+    width: 75%;
+}
+#markAsInProgress{
+	background-color : #ffe400;
+    color: #000000;
+    font-weight: 700;
+    margin: 10px;
+	margin-left: 100px;
+	margin-right: 100px;
+    border-radius: 12px;
+    padding: 10px;
+    border: 10px;
+    width: 75%;
+}
+*{
+	font-family: Montserrat;
+	font-size : 20px;
+}
+#todoList{
+	margin : 30px;
+	border-radius: 12px;
+	border:none;
+	color:#ffffff;
+}
+.toDoMain{
+	margin: 10px;
+	margin-left: 100px;
+	margin-right: 100px;
+    background-color: #272727;
+    border-radius: 12px;
+    padding: 10px;
+    border: 10px;
+    width: 75%;
+    height: 30px;
+}
+.todo{
+	width: 55%;
+	float: left;
+	border-radius: 12px;
+	transition-duration: 0.4s;
+}
+.todoX{
+	width: 5%;
+	float: left;
+	border-radius: 12px;
+	text-align: center;
+}
+.todoX:hover{
+	color: #ff0000;
+	font-size: 110%;
+}
+.todoProg{
+	width: 20%;
+	float :left;
+	border-radius: 12px;
+	text-align: center;
+}
+.todoProg:hover{
+	color: #ffe400;
+	font-size: 110%;
+}
+.todoEdit{
+	width: 10%;
+	float: left;
+	border-radius: 12px;
+	text-align: center;
+}
+.todoEdit:hover{
+	color: #00cae0;
+	font-size: 110%;
+}
+.todoDone{
+	width: 10%;
+	float :left;
+	border-radius: 12px;
+	text-align: center;
+}
+.todoDone:hover{
+	color: #14a76c;
+	font-size: 110%;
+}
+#editBtn{
+	margin-left:5px;
+	border-radius: 12px;
+	padding: 3px 5px;
+}
+#editBtn:hover{
+	background-color: #14a76c;
+	font-weight: 700;
+}
+#header{
+	text-align : center;
+	font-size : 40px;
+	font-weight : 900;
+}
+#todoInput{
+	margin : 30px 10px 30px 150px;
+	padding : 5px;
+	border-width: 3px;
+	border-color : #000000;
+	font-size: 120%;
+}
+#dueDate{
+	margin : 5px;
+	padding : 5px;
+	border-width: 3px;
+	border-color : #000000;
+	font-size: 120%;
+}
+#editToDo{
+	padding 3px;
+	margin-left: 5px;
+	margin-right: 10px;
+}
+#addButton{
+	margin : 30px 30px;
+	padding : 10px;
+	transition-duration: 0.2s;
+	border-width: 3px;
+	border-color: #000000;
+	border-radius : 12px;
+	font-weight: 700;
+}
+#addButton:hover{
+	background-color: #14a76c;
+	color : #000000;
+	font-weight: 700;
+
+}
+#deleteAll{
+	margin : 30px 232px;
+	padding : 10px;
+	transition-duration: 0.4s;
+	border-width: 3px;
+	border-color: #000000;
+	border-radius : 12px;
+	font-weight: 700;
+}
+#deleteAll:hover{
+	background-color: #ff0000;
+	color : #000000;
+	font-weight: 700;
+}
